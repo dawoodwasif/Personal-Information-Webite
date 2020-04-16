@@ -1,8 +1,8 @@
 .top-container{
 background-color: #ecf4f3;
-position: relative;
 height: 650px;
-
+text-align: center;
+position: relative;
 
 }
 h1{
@@ -46,14 +46,15 @@ body{
   width: 10%;
   position: absolute;
   left: 250px;
-
-
 }
 .mountain{
-width : 40%;
-position: absolute;
-bottom: -108px;
-right : 480px;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: auto;
+
+
 }
 
 .profile, .skills{
