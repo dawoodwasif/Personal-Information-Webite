@@ -1,0 +1,156 @@
+.top-container{
+background-color: #ecf4f3;
+height: 650px;
+text-align: center;
+position: relative;
+
+}
+h1{
+  padding-top: 170px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 4em;
+  color: #00bdaa;
+}
+.sp1{
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  color: #00bdaa;
+}
+p{
+  font-family: 'Cabin', sans-serif;
+  color: #204051
+}
+body{
+  margin: 0;
+  background-color: #F1FCFC;
+}
+
+.sun{
+  width: 13%;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.cloud1{
+  width: 10%;
+  position: absolute;
+  top: 80px;
+  right : 250px;
+}
+
+.cloud2{
+  width: 10%;
+  position: absolute;
+  left: 250px;
+}
+.mountain{
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: auto;
+
+
+}
+
+.profile, .skills{
+  text-align: center;
+  margin: 100px auto 100px auto;
+}
+.dp{
+  width : 245px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.programming{
+  width : 200px;
+  height: 190px;
+  border-radius: 60%;
+  float: right;
+  margin-left: 30px;
+}
+
+ .video-editing, .web-design{
+  width : 200px;
+  height: 190px;
+  border-radius: 60%;
+  float: left;
+  margin-right: 30px;
+}
+h2, h3{
+  color: #18b0b0;
+  font-family: 'Merriweather', sans-serif;
+}
+.contact-me, .bottom-container{
+  text-align: center;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #216353;
+  border-width: 10px;
+  width: 8%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row1{
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.video-editing:hover, .web-design:hover, .programming:hover{
+transform: scale(1.5);
+}
+.btn {
+	box-shadow: 0 1px 0 0 #32b1d1;
+	background:linear-gradient(to bottom, #1ddec7 5%, #17ebaf 100%);
+	background-color:#1ddec7;
+	border-radius:8px;
+	border:1px solid #127363;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #0b194d;
+  margin: 20px auto ;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #56bfbf 5%, #1ddec7 100%);
+	background-color:#17ebaf;
+  font-size: 20px;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.sp1{
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  color: #00bdaa;
+}
+.bottom-container{
+  background-color: #56bfbf;
+  margin-bottom: 0;
+  padding: 40px;
+  word-spacing: 4px;
+}
+.cr{
+  color: white;
+  font-size: .8rem;
+}
